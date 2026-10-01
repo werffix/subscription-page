@@ -14,17 +14,17 @@
     height: 48px;
     min-width: 0;
     overflow: hidden;
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-left: 3px solid rgba(255, 255, 255, 0.08);
-    border-radius: var(--mantine-radius-md);
+    background: #1a1a1a;
+    border: 1px solid #262626;
+    border-left: 3px solid #262626;
+    border-radius: 10px;
     cursor: pointer;
     transition: all 0.2s ease;
 }
 
 .appButton:hover {
-    background: rgba(255, 255, 255, 0.05);
-    border-left-color: rgba(255, 255, 255, 0.25);
+    background: #202020;
+    border-left-color: #666666;
 }
 
 .appButton:hover .bgIcon {
@@ -33,16 +33,14 @@
 
 .appButtonActive,
 .appButtonActive:hover {
-    background: linear-gradient(90deg, rgba(34, 211, 238, 0.12) 0%, rgba(34, 211, 238, 0.04) 100%);
-    border-color: rgba(34, 211, 238, 0.2);
-    border-left-color: var(--mantine-color-cyan-5);
-    box-shadow:
-        inset 4px 0 12px -4px rgba(34, 211, 238, 0.3),
-        0 0 12px rgba(34, 211, 238, 0.1);
+    background: #222222;
+    border-color: #555555;
+    border-left-color: #ffffff;
+    box-shadow: inset 4px 0 12px -4px rgba(255, 255, 255, 0.25);
 }
 
 .appButtonActive .appName {
-    color: var(--mantine-color-cyan-3);
+    color: #ffffff;
 }
 
 .appButtonActive .bgIcon,
